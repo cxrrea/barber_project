@@ -7,20 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="image"><img src="assets/271754902_649637013126555_1096775724928971211_n.svg" alt=""></div>
+
+  <hr>
+
     <div class="container">
-        <h2>Agendamento</h2>
+        <h2>AGENDAMENTO</h2>
         <form id="appointment-form">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" required placeholder="Nome Completo">
+             
+            <label for="telefone"></label>
+            <input type="tel" id="num" required placeholder="Telefone">
 
-            <label for="date">Data:</label>
-            <input type="date" id="date" name="date" required>
+            <label for="date"></label>
+            <input type="date" id="date" name="date" required placeholder="Data">
 
-            <label for="time">Horário:</label>
-            <input type="time" id="time" name="time" required>
+            <label for="time"></label>
+            <input type="time" id="time" name="time" required placeholder="Horario">
 
             <button type="submit">Agendar</button>
         </form>
+
+
+
+        
+
     </div>
 </body>
 </html>
