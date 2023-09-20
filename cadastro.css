@@ -1,58 +1,42 @@
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Agendamento</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
     
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 40px;
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-           margin-right: 100px;
-           
-        }
-        h2 {
-            text-align: center;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="tel"],
-        input[type="text"],
-        input[type="date"],
-        input[type="time"] {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            margin-top: 20px;
-            
-        }
-        button {
-            background-color: #2F4F4F;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            padding: 10px 20px;
-            cursor: pointer;
-            margin-top: 25px;
-        }
-        button:hover {
-            background-color: #8FBC8F;
-        }
+</header>
 
-        img {
-            width: 10px;
-            
-        }
+    <div class="container">
+        <h1>CADASTRO</h1>
+        <form>
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
 
-     hr {
-         margin-top: 10px;
-         
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-     }
+            <label for="telefone"></label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="Telefone">
+
+            <label for="senha"></label>
+            <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
+
+            <label for="confirm"></label>
+            <input type="password" id="confirm" name="confirm" placeholder="Confirme sua senha" required>
         
+
+            </select>
+
+            <br>
+
+            <button type="submit">Concluir</button>
+        </form>
+    </div>
+</body>
+</html>
