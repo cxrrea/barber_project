@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Agendamento</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-  <div class="image"><img src="assets/271754902_649637013126555_1096775724928971211_n.svg" alt=""></div>
-
-  <hr>
+<header>
+    
+</header>
 
     <div class="container">
-        <h2>AGENDAMENTO</h2>
-        <form id="appointment-form">
-            <label for="name"></label>
-            <input type="text" id="name" name="name" required placeholder="Nome Completo">
-             
+        <h1>CADASTRO</h1>
+        <form>
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
+
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
             <label for="telefone"></label>
-            <input type="tel" id="num" required placeholder="Telefone">
+            <input type="tel" id="telefone" name="telefone" required placeholder="Telefone">
 
-            <label for="date"></label>
-            <input type="date" id="date" name="date" required placeholder="Data">
+            <label for="senha"></label>
+            <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
 
-            <label for="time"></label>
-            <input type="time" id="time" name="time" required placeholder="Horario">
-
-            <button type="submit">Agendar</button>
-        </form>
-
-
-
+            <label for="confirm"></label>
+            <input type="password" id="confirm" name="confirm" placeholder="Confirme sua senha" required>
         
 
+            </select>
+
+            <br>
+
+            <button type="submit">Concluir</button>
+        </form>
     </div>
 </body>
 </html>
