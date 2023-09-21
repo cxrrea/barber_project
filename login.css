@@ -1,19 +1,19 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
 .container {
-    max-width: 400px;
+    width: 470px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+    position: relative;                            
+}           
 h2 {
-    color: #333;
+    color: rgb(0, 0, 0);
 }
 .form-group {
     margin-bottom: 20px;
@@ -24,23 +24,24 @@ label {
 }
 input[type="text"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
+    width: 35%;
+    padding: 15px 130px;
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .btn-login {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
+    padding: 15px 130px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .btn-signup {
     color: #007bff;
     text-decoration: none;
     margin-left: 10px;
+    text-align: center;
 }
