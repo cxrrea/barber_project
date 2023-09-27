@@ -1,5 +1,13 @@
-# Sistema de agendamento para barebaria
+# AGENDAMENTOS
 
-Este será um sistema de agendamentos para barbearias onde o cliente poderá agendar horários com praticidade e facilidade.
+## Este será um sistema de agendamentos para barbearias.
 
-#Temos o requisito de que deve ser pago uma taxa de 5 reais antecipadamente e o restante é pago no própio local#
+### Tanto os clientes quanto o própio profissional poderam ter experiencias com a plataforma, onde o profissional poderá ter acesso a um dashbord com as estatiscas e dados referente ao mês trabalhado, e o usuário terá a facilidade de agendar o seu horário através da plataforma.
+
+#### Equipe: 
+ * Lucas Pavanela
+ * Luís Felipe Anobile
+ * João Vitor Corrêa
+
+
+
