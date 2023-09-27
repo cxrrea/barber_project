@@ -1,4 +1,6 @@
-
+<?php
+session_start()
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -164,7 +166,11 @@ body {
 
 <div class="container">
     <h1>CADASTRO</h1>
-
+   <?php
+    if(isset($_SESSION['msg']))
+    echo $_SESSION['msg'];
+        unset($_SESSION['msg']);
+   ?>
     <form method="POST" action="formulario.php">
         <label for="nome"></label>
         <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
@@ -177,6 +183,9 @@ body {
 
         <label for="senha"></label>
         <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
+
+        <label for="confirm"></label>
+        <input type="password" id="confirm" name="confirm" placeholder="Digite uma senha" required>
 
     
         </select>
