@@ -1,6 +1,6 @@
 # MARKETING DIGITAL
 
-## Este será uma página web onde os interessados em marketing e midia digital poderam entender sobre nosso trabalho.
+## Esta será uma página web onde os interessados em marketing e midia digital poderam entender sobre nosso trabalho.
 
 ### Ao logar em nossa página web explicaremos sobre nossos serviços e o cliente terá a opção de entrar em contato conosco via whatsapp.
 
