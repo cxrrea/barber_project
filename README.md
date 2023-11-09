@@ -1,8 +1,10 @@
-# AGENDAMENTOS
+# MARKETING DIGITAL
 
-## Este será um sistema de agendamentos para barbearias.
+## Este será uma página web onde os interessados em marketing e midia digital poderam entender sobre nosso trabalho.
 
-### Tanto os clientes quanto o própio profissional poderam ter experiencias com a plataforma, onde o profissional poderá ter acesso a um dashbord com as estatisticas e dados referente ao mês trabalhado, e o usuário terá a facilidade de agendar o seu horário através da plataforma.
+### Ao logar em nossa página web explicaremos sobre nossos serviços e o cliente terá a opção de entrar em contato conosco via whatsapp.
+
+### Pedimos o cadastro para que possamos coletar os dados e assim ficar mais fácil de conhecer nossos clientes
 
 #### Equipe: 
  * Lucas Pavanela
