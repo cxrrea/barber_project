@@ -18,9 +18,8 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $telefone = $_POST['telefone'];
 $data_nasc = $_POST['data_nascimento'];
-$senha = $_POST['senha'];
 
-$result = mysqli_query($conexao,"INSERT INTO usuarios(nome,email,telefone,data_nasc,senha) VALUES ('$nome', '$email', '$telefone', '$data_nasc', '$senha')");
+$result = mysqli_query($conexao,"INSERT INTO pacientes(nome,email,telefone,data_nasc) VALUES ('$nome', '$email', '$telefone', '$data_nasc')");
 
 }
 
@@ -98,8 +97,8 @@ $result = mysqli_query($conexao,"INSERT INTO usuarios(nome,email,telefone,data_n
 <body>
     <a href="home.php"></a>
     <div class="box">
-        <form action="formulario.php" method="POST">
-                <h1>Cadastro</h1>
+        <form action="pacientes.php" method="POST">
+                <h1>Cadastro Pacientes</h1>
                 <br>
                 <div class="inputBox">
                 <label for="nome" class="labelInput"></label>
@@ -119,18 +118,13 @@ $result = mysqli_query($conexao,"INSERT INTO usuarios(nome,email,telefone,data_n
                 <br><br>
                 <label for="data_nascimento"></label>
                 <input type="text" name="data_nascimento" id="data_nascimento" placeholder="Data Nascimento" maxlength="10"  required>
-                <br><br>
-                <div class="inputBox">
-                    <label for="senha" class="labelInput"></label>
-                    <input type="password" name="senha" id="senha" class="inputUser" placeholder="Senha" maxlength="25" required>
-                    
-                </div>
+                                
                 <br><br>
                 <div class="botao">
                 <input type="submit" name="submit" id="submit" value="Enviar" ></input>
                 </div>
 
-               <a href="home.php">Voltar</a>                
+               <a href="sistema.php">Voltar</a>                
 
                 
         </form>
