@@ -1,10 +1,15 @@
-# MARKETING DIGITAL
+# Sistema de agendamento
 
-## Esta será uma página web onde os interessados em marketing e midia digital poderam entender sobre nosso trabalho.
+## Esta será uma página web onde os profissionais de uma clinica de fisioterapia terão acesso a agendamentos referente as consultas da clinica.
 
-### Ao logar em nossa página web explicaremos sobre nossos serviços e o cliente terá a opção de entrar em contato conosco via whatsapp.
+### Apenas os superiores da clinica terão acesso a esse sistema e eles mesmos poderam cadastrar os clientes e realizar os agendamentos.
 
-### Pedimos o cadastro para que possamos coletar os dados e assim ficar mais fácil de conhecer nossos clientes
+### Ferramentas utilizadas:
+- HTML
+- CSS
+- BOOTSTRAP
+- XAMPP
+- PHP
 
 #### Equipe: 
  * Lucas Pavanela
