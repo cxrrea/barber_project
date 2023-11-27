@@ -10,6 +10,7 @@
 - BOOTSTRAP
 - XAMPP
 - PHP
+- JAVASCRIPT
 
 #### Equipe: 
  * Lucas Pavanela
