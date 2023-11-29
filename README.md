@@ -1,8 +1,6 @@
 # Sistema de agendamento
 
-## Esta será uma página web onde os profissionais de uma clinica de fisioterapia terão acesso a agendamentos referente as consultas da clinica.
-
-### Apenas os superiores da clinica terão acesso a esse sistema e eles mesmos poderam cadastrar os clientes e realizar os agendamentos.
+## Esta será uma página web onde os profissionais de barbearias ou salões de cabelo poderam ter acesso aos horários agendados por seus clientes.
 
 ### Ferramentas utilizadas:
 - HTML
